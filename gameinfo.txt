@@ -1,0 +1,23 @@
+"GameInfo"
+{
+	game 		"Zombie Fortress"
+	title 		"Zombie Fortress"
+	title2		"Brains. It's what's for dinner."
+
+	type		singleplayer_only
+
+	FileSystem
+	{
+		SteamAppId			218 // Uses source sdk base?
+		ToolsAppId			211 // Tools Id
+		AdditionalContentId		420 // Adds EP2 as the main addition
+		
+		SearchPaths
+		{
+			Game				|gameinfo_path|.
+			Game				|all_source_engine_paths|ep2
+			Game				|all_source_engine_paths|episodic
+			Game				|all_source_engine_paths|hl2
+		}
+	}
+}

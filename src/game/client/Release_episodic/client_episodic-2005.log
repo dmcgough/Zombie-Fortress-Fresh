@@ -1,0 +1,30 @@
+﻿Build started 5/27/2011 3:06:33 AM.
+     1>Project "C:\Program Files (x86)\Steam\steamapps\sourcemods\zombiefortress\src\game\client\client_episodic-2005.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release_episodic\Client Episodic.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files (x86)\Steam\steamapps\sourcemods\zombiefortress\src\game\client\.\Release_episodic\Client Episodic.dll) does not match the Linker's OutputFile property value (C:\Program Files (x86)\Steam\steamapps\sourcemods\zombiefortress\src\game\client\Release_episodic\Client.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Client Episodic) does not match the Linker's OutputFile property value (Client). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+         client_episodic-2005.vcxproj -> C:\Program Files (x86)\Steam\steamapps\sourcemods\zombiefortress\src\game\client\.\Release_episodic\Client Episodic.dll
+       CustomBuildStep:
+         Description: Copying to c:\program files (x86)\steam\steamapps\SourceMods\zombiefortress\bin\
+         if exist "c:\program files (x86)\steam\steamapps\SourceMods\zombiefortress\bin\client.dll" attrib -r "c:\program files (x86)\steam\steamapps\SourceMods\zombiefortress\bin\client.dll"
+         copy "C:\Program Files (x86)\Steam\steamapps\sourcemods\zombiefortress\src\game\client\Release_episodic\"client.dll "c:\program files (x86)\steam\steamapps\SourceMods\zombiefortress\bin"
+         if exist "c:\program files (x86)\steam\steamapps\SourceMods\zombiefortress\bin\client.pdb" attrib -r "c:\program files (x86)\steam\steamapps\SourceMods\zombiefortress\bin\client.pdb"
+         if exist "C:\Program Files (x86)\Steam\steamapps\sourcemods\zombiefortress\src\game\client\Release_episodic\"client.pdb copy "C:\Program Files (x86)\Steam\steamapps\sourcemods\zombiefortress\src\game\client\Release_episodic\"client.pdb "c:\program files (x86)\steam\steamapps\SourceMods\zombiefortress\bin\client.pdb"
+         
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file ".\Release_episodic\Client Episodic.unsuccessfulbuild".
+         Touching ".\Release_episodic\Client Episodic.lastbuildstate".
+     1>Done Building Project "C:\Program Files (x86)\Steam\steamapps\sourcemods\zombiefortress\src\game\client\client_episodic-2005.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.63
