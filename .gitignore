@@ -1,0 +1,5 @@
+*.obj
+src/game/client/Debug_episodic
+src/game/client/Release_episodic
+src/game/server/Debug_episodic
+src/game/server/Release_episodic
