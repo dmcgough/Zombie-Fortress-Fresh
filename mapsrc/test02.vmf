@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "320"
+	"mapversion" "325"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "320"
+	"mapversion" "325"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
-	"skyname" "sky_day01_08"
+	"skyname" "sky_halloween"
 	solid
 	{
 		"id" "8"
@@ -40719,16 +40719,16 @@ entity
 {
 	"id" "70"
 	"classname" "light_environment"
-	"_ambient" "105 142 165 120"
+	"_ambient" "79 94 128 90"
 	"_ambientHDR" "-1 -1 -1 1"
 	"_AmbientScaleHDR" "1"
-	"_light" "235 155 71 1000"
+	"_light" "149 164 181 190"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
-	"angles" "0 229 0"
-	"pitch" "-35"
+	"angles" "0 105 0"
+	"pitch" "-30"
 	"SunSpreadAngle" "0"
-	"origin" "1338.81 1346.4 235.742"
+	"origin" "1338.81 1904 1168"
 	editor
 	{
 		"color" "220 30 220"
@@ -40749,7 +40749,7 @@ entity
 	"overlaysize" "-1"
 	"rendercolor" "100 80 80"
 	"size" "16"
-	"origin" "1437.95 1402.01 222.581"
+	"origin" "1437.95 1959.61 1154.84"
 	editor
 	{
 		"color" "255 0 0"
