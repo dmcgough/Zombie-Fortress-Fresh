@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "382"
+	"mapversion" "383"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "382"
+	"mapversion" "383"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -761,9 +761,9 @@ world
 		{
 			"id" "1009"
 			"plane" "(-384 -256 640) (480 -256 640) (480 -256 652)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"material" "PROPS/ACOUSTICCEILING002A"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -891,9 +891,9 @@ world
 		{
 			"id" "1368"
 			"plane" "(320 -256 640) (320 -104 640) (320 -104 652)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[0 1 0 -256] 0.25"
-			"vaxis" "[0 0 -1 48] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1369,9 +1369,9 @@ world
 		{
 			"id" "1399"
 			"plane" "(64 -256 676) (-64 -256 676) (-64 -256 652)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"material" "PROPS/ACOUSTICCEILING002A"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1770,82 +1770,6 @@ world
 		editor
 		{
 			"color" "0 158 103"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "9103"
-		side
-		{
-			"id" "1520"
-			"plane" "(-64 -256 832) (-360 -256 832) (-360 -240 832)"
-			"material" "STONE/STONEWALL036A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1519"
-			"plane" "(-64 -240 652) (-360 -240 652) (-360 -256 652)"
-			"material" "STONE/STONEWALL036A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1518"
-			"plane" "(-64 -256 652) (-360 -256 652) (-360 -256 832)"
-			"material" "STONE/STONEWALL033A"
-			"uaxis" "[-1 0 0 -256] 0.25"
-			"vaxis" "[0 0 -1 192] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1517"
-			"plane" "(-360 -240 652) (-64 -240 652) (-64 -240 832)"
-			"material" "STONE/STONEWALL036A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -128] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1516"
-			"plane" "(-360 -256 652) (-360 -240 652) (-360 -240 832)"
-			"material" "STONE/STONEWALL036A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -128] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1515"
-			"plane" "(-64 -240 652) (-64 -256 652) (-64 -256 832)"
-			"material" "STONE/STONEWALL036A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -128] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 228 137"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -4007,9 +3931,9 @@ world
 		{
 			"id" "2562"
 			"plane" "(-272 -174 688) (-272 0 688) (-272 0 916)"
-			"material" "STONE/STONEWALL033A"
-			"uaxis" "[0 1 0 -368] 0.25"
-			"vaxis" "[0 0 -1 112] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4604,9 +4528,9 @@ world
 		{
 			"id" "2671"
 			"plane" "(-344 0 916) (-344 -72 916) (-256 -72 916)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 448] 0.25"
-			"vaxis" "[0 -1 0 48] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4756,8 +4680,8 @@ world
 		{
 			"id" "2881"
 			"plane" "(-360 0 712) (-360 -240 712) (-344 -240 712)"
-			"material" "STONE/STONEWALL033A"
-			"uaxis" "[1 0 0 416] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -14437,9 +14361,9 @@ world
 		{
 			"id" "9658"
 			"plane" "(320 -104 640) (320 0 640) (320 0 652)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"material" "PROPS/ACOUSTICCEILING002A"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14459,9 +14383,9 @@ world
 		{
 			"id" "9656"
 			"plane" "(320 0 640) (424 0 640) (424 0 652)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"material" "PROPS/ACOUSTICCEILING002A"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14654,8 +14578,8 @@ world
 		{
 			"id" "9707"
 			"plane" "(-344 -168 688) (-344 -240 688) (-272 -240 688)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -14687,9 +14611,9 @@ world
 		{
 			"id" "9704"
 			"plane" "(-344 -168 688) (-272 -168 688) (-272 -168 844)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 0 -1 336] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14730,9 +14654,9 @@ world
 		{
 			"id" "9719"
 			"plane" "(-344 -152 844) (-344 -168 844) (-272 -168 844)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14763,9 +14687,9 @@ world
 		{
 			"id" "9716"
 			"plane" "(-344 -152 844) (-272 -152 844) (-272 -152 856)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 0 -1 384] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14806,9 +14730,9 @@ world
 		{
 			"id" "9731"
 			"plane" "(-344 -136 856) (-344 -152 856) (-272 -152 856)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 -1 0 128] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14839,9 +14763,9 @@ world
 		{
 			"id" "9728"
 			"plane" "(-344 -136 856) (-272 -136 856) (-272 -136 868)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 0 -1 432] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14882,9 +14806,9 @@ world
 		{
 			"id" "9743"
 			"plane" "(-344 -120 868) (-344 -136 868) (-272 -136 868)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 -1 0 192] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14915,9 +14839,9 @@ world
 		{
 			"id" "9740"
 			"plane" "(-344 -120 868) (-272 -120 868) (-272 -120 880)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 0 -1 480] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14958,9 +14882,9 @@ world
 		{
 			"id" "9755"
 			"plane" "(-344 -104 880) (-344 -120 880) (-272 -120 880)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 -1 0 256] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14991,9 +14915,9 @@ world
 		{
 			"id" "9752"
 			"plane" "(-344 -104 880) (-272 -104 880) (-272 -104 892)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15034,9 +14958,9 @@ world
 		{
 			"id" "9767"
 			"plane" "(-344 -88 892) (-344 -104 892) (-272 -104 892)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 -1 0 320] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15067,9 +14991,9 @@ world
 		{
 			"id" "9764"
 			"plane" "(-344 -88 892) (-272 -88 892) (-272 -88 904)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 0 -1 64] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15110,9 +15034,9 @@ world
 		{
 			"id" "9779"
 			"plane" "(-344 -72 904) (-344 -88 904) (-272 -88 904)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 -1 0 384] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15143,9 +15067,9 @@ world
 		{
 			"id" "9776"
 			"plane" "(-344 -72 904) (-272 -72 904) (-272 -72 916)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 320] 0.25"
-			"vaxis" "[0 0 -1 112] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15371,9 +15295,9 @@ world
 		{
 			"id" "9830"
 			"plane" "(-360 -104 676) (-360 -104 712) (-272 -104 712)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
-			"uaxis" "[1 0 0 160] 0.25"
-			"vaxis" "[0 0 -1 48] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15577,9 +15501,9 @@ world
 		{
 			"id" "9874"
 			"plane" "(-272 -248 676) (-272 0 676) (-272 0 688)"
-			"material" "STONE/STONEWALL033A"
-			"uaxis" "[0 1 0 -256] 0.25"
-			"vaxis" "[0 0 -1 48] 0.25"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -43774,6 +43698,158 @@ world
 		{
 			"color" "220 220 220"
 			"groupid" "27572"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "42530"
+		side
+		{
+			"id" "13257"
+			"plane" "(-64 -256 832) (-360 -256 832) (-360 -240 832)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13256"
+			"plane" "(-360 -256 676) (-360 -256 832) (-64 -256 832)"
+			"material" "STONE/STONEWALL033A"
+			"uaxis" "[-1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13255"
+			"plane" "(-64 -240 676) (-64 -240 832) (-360 -240 832)"
+			"material" "STONE/STONEWALL033A"
+			"uaxis" "[-1 0 0 -448] 0.25"
+			"vaxis" "[0 0 -1 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13254"
+			"plane" "(-360 -240 676) (-360 -240 832) (-360 -256 832)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13253"
+			"plane" "(-64 -256 676) (-64 -256 832) (-64 -240 832)"
+			"material" "STONE/STONEWALL033A"
+			"uaxis" "[0 1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13252"
+			"plane" "(-64 -240 676) (-360 -240 676) (-360 -256 676)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 228 137"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "42531"
+		side
+		{
+			"id" "13263"
+			"plane" "(-64 -240 652) (-360 -240 652) (-360 -256 652)"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13262"
+			"plane" "(-64 -256 652) (-360 -256 652) (-360 -256 676)"
+			"material" "STONE/STONEWALL033A"
+			"uaxis" "[-1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13261"
+			"plane" "(-360 -240 652) (-64 -240 652) (-64 -240 676)"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13260"
+			"plane" "(-360 -256 652) (-360 -240 652) (-360 -240 676)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13259"
+			"plane" "(-64 -240 652) (-64 -256 652) (-64 -256 676)"
+			"material" "PROPS/ACOUSTICCEILING002A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13258"
+			"plane" "(-64 -256 676) (-360 -256 676) (-360 -240 676)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 228 137"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
