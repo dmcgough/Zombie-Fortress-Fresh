@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "278"
+	"mapversion" "288"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "1"
 }
 world
 {
 	"id" "1"
-	"mapversion" "278"
+	"mapversion" "288"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -10732,82 +10732,6 @@ world
 	}
 	solid
 	{
-		"id" "15935"
-		side
-		{
-			"id" "5208"
-			"plane" "(512 136 224) (512 -136 224) (512 -136 832)"
-			"material" "STONE/STONEWALL036A"
-			"uaxis" "[0 1 0 16] 0.25"
-			"vaxis" "[0 0 -1 420] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5207"
-			"plane" "(512 136 832) (512 -136 832) (480 -136 832)"
-			"material" "STONE/STONEWALL036A"
-			"uaxis" "[1 0 0 -380.368] 0.25"
-			"vaxis" "[0 -1 0 -16] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5206"
-			"plane" "(480 136 224) (480 -136 224) (512 -136 224)"
-			"material" "STONE/STONEWALL036A"
-			"uaxis" "[1 0 0 -380.368] 0.25"
-			"vaxis" "[0 -1 0 -16] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5205"
-			"plane" "(480 -136 224) (480 136 224) (480 136 832)"
-			"material" "STONE/STONEWALL036A"
-			"uaxis" "[0 1 0 16] 0.25"
-			"vaxis" "[0 0 -1 420] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5204"
-			"plane" "(480 136 224) (512 136 224) (512 136 832)"
-			"material" "STONE/STONEWALL036A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5203"
-			"plane" "(512 -136 832) (512 -136 224) (480 -136 224)"
-			"material" "STONE/STONEWALL036A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 112 201"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "15936"
 		side
 		{
@@ -10858,8 +10782,8 @@ world
 			"id" "5210"
 			"plane" "(480 136 32) (480 512 32) (480 512 832)"
 			"material" "STONE/STONEWALL036A"
-			"uaxis" "[0 1 0 16] 0.25"
-			"vaxis" "[0 0 -1 420] 0.25"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -35592,6 +35516,1520 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "25884"
+		side
+		{
+			"id" "11125"
+			"plane" "(512 -136 576) (512 -136 832) (512 136 832)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 480] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11124"
+			"plane" "(480 -136 832) (480 136 832) (512 136 832)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 -380.368] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11123"
+			"plane" "(480 136 576) (480 136 832) (480 -136 832)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11122"
+			"plane" "(512 136 576) (512 136 832) (480 136 832)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11121"
+			"plane" "(512 -136 832) (512 -136 576) (480 -136 576)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11120"
+			"plane" "(480 136 576) (480 -136 576) (512 -136 576)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 112 201"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "25964"
+		side
+		{
+			"id" "11155"
+			"plane" "(512 136 576) (512 136 224) (512 -32 224)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 480] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11154"
+			"plane" "(480 136 224) (480 -32 224) (512 -32 224)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 -380.368] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11153"
+			"plane" "(480 -32 224) (480 136 224) (480 136 576)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11152"
+			"plane" "(480 136 576) (480 136 224) (512 136 224)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11151"
+			"plane" "(480 -32 576) (480 136 576) (512 136 576)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11150"
+			"plane" "(512 -32 576) (512 -32 224) (480 -32 224)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 112 201"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "25965"
+		side
+		{
+			"id" "11167"
+			"plane" "(480 -136 396) (480 -32 396) (512 -32 396)"
+			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"uaxis" "[1 0 0 -352] 0.25"
+			"vaxis" "[0 -1 0 -128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11166"
+			"plane" "(480 -32 384) (480 -136 384) (512 -136 384)"
+			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"uaxis" "[1 0 0 -352] 0.25"
+			"vaxis" "[0 -1 0 -128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11165"
+			"plane" "(480 -136 384) (480 -32 384) (480 -32 396)"
+			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"uaxis" "[0 1 0 128] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11164"
+			"plane" "(512 -32 384) (512 -136 384) (512 -136 396)"
+			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"uaxis" "[0 1 0 128] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11163"
+			"plane" "(480 -32 384) (512 -32 384) (512 -32 396)"
+			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"uaxis" "[1 0 0 -352] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11162"
+			"plane" "(512 -136 384) (480 -136 384) (480 -136 396)"
+			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"uaxis" "[1 0 0 -352] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 202 131"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26005"
+		side
+		{
+			"id" "11173"
+			"plane" "(512 -32 224) (512 -136 224) (512 -136 384)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 480] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11172"
+			"plane" "(480 -32 224) (480 -136 224) (512 -136 224)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 -380.368] 0.25"
+			"vaxis" "[0 -1 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11171"
+			"plane" "(480 -136 384) (480 -136 224) (480 -32 224)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 16] 0.25"
+			"vaxis" "[0 0 -1 420] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11170"
+			"plane" "(512 -136 384) (512 -136 224) (480 -136 224)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11169"
+			"plane" "(480 -32 384) (480 -32 224) (512 -32 224)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11168"
+			"plane" "(480 -136 384) (480 -32 384) (512 -32 384)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 112 201"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26088"
+		side
+		{
+			"id" "11254"
+			"plane" "(512 -135.953 575.979) (480 -135.953 575.979) (480 -32 575.979)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11253"
+			"plane" "(512 -32 575.98) (480 -32 575.98) (480 -32 546.045)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[-1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11252"
+			"plane" "(480 -32 546.045) (480 -32 575.98) (480 -135.958 575.98)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11251"
+			"plane" "(480 -135.955 575.979) (512 -135.955 575.979) (512 -32 546.044)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11250"
+			"plane" "(512 -135.958 575.98) (512 -32 575.98) (512 -32 546.045)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 168] 0.25"
+			"vaxis" "[0 0 -1 -80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "241 230 0"
+			"groupid" "26087"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26089"
+		side
+		{
+			"id" "11259"
+			"plane" "(480 -135.973 575.965) (480 -66.6657 538.096) (480 -49.8717 543.941)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11258"
+			"plane" "(480 -66.6679 538.095) (480 -135.981 575.968) (512 -135.981 575.968)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11257"
+			"plane" "(512 -135.968 575.962) (480 -135.968 575.962) (480 -49.8734 543.94)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11256"
+			"plane" "(480 -49.8719 543.941) (480 -66.6665 538.096) (512 -66.6665 538.096)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11255"
+			"plane" "(512 -66.6657 538.096) (512 -135.973 575.965) (512 -49.8717 543.941)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 168] 0.25"
+			"vaxis" "[0 0 -1 -80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "241 230 0"
+			"groupid" "26087"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26090"
+		side
+		{
+			"id" "11264"
+			"plane" "(480 -32 546.045) (480 -136 575.98) (480 -49.8748 543.941)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11263"
+			"plane" "(512 -136 575.984) (480 -136 575.984) (480 -32 546.045)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11262"
+			"plane" "(480 -49.8753 543.941) (480 -136 575.984) (512 -136 575.984)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11261"
+			"plane" "(480 -32 546.045) (480 -49.8746 543.941) (512 -49.8746 543.941)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11260"
+			"plane" "(512 -49.8748 543.941) (512 -136 575.98) (512 -32 546.045)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 168] 0.25"
+			"vaxis" "[0 0 -1 -80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "241 230 0"
+			"groupid" "26087"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26091"
+		side
+		{
+			"id" "11269"
+			"plane" "(480 -135.962 575.964) (480 -81.0108 528.512) (480 -66.6661 538.096)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11268"
+			"plane" "(512 -81.0119 528.511) (480 -81.0119 528.511) (480 -135.967 575.967)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11267"
+			"plane" "(512 -135.959 575.961) (480 -135.959 575.961) (480 -66.6675 538.095)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11266"
+			"plane" "(480 -66.6666 538.096) (480 -81.0099 528.513) (512 -81.0099 528.513)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11265"
+			"plane" "(512 -81.0108 528.512) (512 -135.962 575.964) (512 -66.6661 538.096)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 168] 0.25"
+			"vaxis" "[0 0 -1 -80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "241 230 0"
+			"groupid" "26087"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26092"
+		side
+		{
+			"id" "11274"
+			"plane" "(480 -136 575.982) (480 -92.1186 516.12) (480 -81.0148 528.512)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11273"
+			"plane" "(512 -92.118 516.121) (480 -92.118 516.121) (480 -136 575.979)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[-1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11272"
+			"plane" "(480 -136 575.983) (480 -81.0143 528.512) (512 -81.0143 528.512)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11271"
+			"plane" "(480 -81.0144 528.511) (480 -92.1176 516.12) (512 -92.1176 516.12)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[-1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11270"
+			"plane" "(512 -92.1186 516.12) (512 -136 575.982) (512 -81.0148 528.512)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 168] 0.25"
+			"vaxis" "[0 0 -1 -80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "241 230 0"
+			"groupid" "26087"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26093"
+		side
+		{
+			"id" "11279"
+			"plane" "(480 -135.97 575.947) (480 -98.8863 501.625) (480 -92.1174 516.118)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11278"
+			"plane" "(512 -98.8861 501.625) (480 -98.8861 501.625) (480 -135.967 575.942)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[-1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11277"
+			"plane" "(480 -135.968 575.944) (480 -92.1176 516.118) (512 -92.1176 516.118)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[-1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11276"
+			"plane" "(480 -92.1176 516.118) (480 -98.8867 501.624) (512 -98.8867 501.624)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[-1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11275"
+			"plane" "(512 -98.8863 501.625) (512 -135.97 575.947) (512 -92.1174 516.118)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 168] 0.25"
+			"vaxis" "[0 0 -1 -80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "241 230 0"
+			"groupid" "26087"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26094"
+		side
+		{
+			"id" "11284"
+			"plane" "(480 -101.333 486.194) (480 -135.985 486.194) (512 -135.985 486.194)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[1 0 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11283"
+			"plane" "(512 -135.985 486.195) (480 -135.985 486.195) (480 -135.985 575.978)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[-1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11282"
+			"plane" "(480 -135.985 575.979) (480 -135.985 486.195) (480 -101.334 486.195)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11281"
+			"plane" "(480 -101.334 486.195) (512 -101.334 486.195) (512 -135.985 575.979)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[-1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11280"
+			"plane" "(512 -101.334 486.195) (512 -135.985 486.195) (512 -135.985 575.979)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 168] 0.25"
+			"vaxis" "[0 0 -1 -80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "241 230 0"
+			"groupid" "26087"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26095"
+		side
+		{
+			"id" "11289"
+			"plane" "(480 -136 576) (480 -101.333 486.192) (480 -98.8858 501.625)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11288"
+			"plane" "(512 -101.334 486.19) (480 -101.334 486.19) (480 -136 576)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[-1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11287"
+			"plane" "(480 -136 576) (480 -98.8859 501.625) (512 -98.8859 501.625)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[-1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11286"
+			"plane" "(480 -98.8857 501.625) (480 -101.333 486.19) (512 -101.333 486.19)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[-1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11285"
+			"plane" "(512 -101.333 486.192) (512 -136 576) (512 -98.8858 501.625)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 168] 0.25"
+			"vaxis" "[0 0 -1 -80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "241 230 0"
+			"groupid" "26087"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26096"
+		side
+		{
+			"id" "11295"
+			"plane" "(512 -136 486.194) (480 -136 486.194) (480 -101.335 486.194)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 -384] 0.25"
+			"vaxis" "[0 -1 0 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11294"
+			"plane" "(480 -101.335 396) (480 -136 396) (512 -136 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 -384] 0.25"
+			"vaxis" "[0 -1 0 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11293"
+			"plane" "(480 -136 396) (480 -101.335 396) (480 -101.335 486.195)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 416] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11292"
+			"plane" "(480 -101.334 396) (512 -101.334 396) (512 -101.334 486.195)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 -384] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11291"
+			"plane" "(512 -136 396) (480 -136 396) (480 -136 486.195)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 -384] 0.25"
+			"vaxis" "[0 0 -1 49.787] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11290"
+			"plane" "(512 -101.335 396) (512 -136 396) (512 -136 486.195)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 1 0 168] 0.25"
+			"vaxis" "[0 0 -1 -80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "241 230 0"
+			"groupid" "26087"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26220"
+		side
+		{
+			"id" "11401"
+			"plane" "(536 -228 396) (512 -244 396) (512 -256 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 264] 0.25"
+			"vaxis" "[0 1 0 80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11400"
+			"plane" "(548 -236 428) (512 -256 428) (512 -244 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 264] 0.25"
+			"vaxis" "[0 1 0 80] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11399"
+			"plane" "(536 -228 428) (536 -228 396) (548 -236 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 -80] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11398"
+			"plane" "(512 -244 396) (512 -244 428) (512 -256 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 -80] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11397"
+			"plane" "(512 -256 428) (548 -236 428) (548 -236 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 -80] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11396"
+			"plane" "(536 -228 428) (512 -244 428) (512 -244 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 -80] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "125 106 0"
+			"groupid" "26227"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26212"
+		side
+		{
+			"id" "11372"
+			"plane" "(548 -236 396) (580 -182 396) (568 -176 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11371"
+			"plane" "(536 -228 428) (568 -176 428) (580 -182 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11370"
+			"plane" "(580 -182 396) (580 -182 428) (568 -176 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11369"
+			"plane" "(548 -236 428) (548 -236 396) (536 -228 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11368"
+			"plane" "(580 -182 396) (548 -236 396) (548 -236 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11367"
+			"plane" "(536 -228 396) (568 -176 396) (568 -176 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "125 106 0"
+			"groupid" "26227"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26214"
+		side
+		{
+			"id" "11383"
+			"plane" "(580 -182 396) (600 -98 396) (584 -92 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11382"
+			"plane" "(568 -176 428) (584 -92 428) (600 -98 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11381"
+			"plane" "(600 -98 396) (600 -98 428) (584 -92 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11380"
+			"plane" "(580 -182 428) (580 -182 396) (568 -176 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11379"
+			"plane" "(600 -98 396) (580 -182 396) (580 -182 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11378"
+			"plane" "(568 -176 396) (584 -92 396) (584 -92 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "125 106 0"
+			"groupid" "26227"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26215"
+		side
+		{
+			"id" "11389"
+			"plane" "(600 -98 396) (608 0 396) (592 0 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11388"
+			"plane" "(584 -92 428) (592 0 428) (608 0 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11387"
+			"plane" "(608 0 396) (608 0 428) (592 0 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11386"
+			"plane" "(600 -98 428) (600 -98 396) (584 -92 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11385"
+			"plane" "(608 0 396) (600 -98 396) (600 -98 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11384"
+			"plane" "(584 -92 396) (592 0 396) (592 0 428)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "125 106 0"
+			"groupid" "26227"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26185"
+		side
+		{
+			"id" "11308"
+			"plane" "(580 -182 384) (512 -136 384) (512 -192 384)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11309"
+			"plane" "(512 -136 396) (580 -182 396) (548 -236 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11310"
+			"plane" "(580 -182 396) (512 -136 396) (512 -136 384)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11311"
+			"plane" "(548 -236 384) (512 -192 384) (512 -192 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11312"
+			"plane" "(548 -236 384) (548 -236 396) (580 -182 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11313"
+			"plane" "(512 -136 384) (512 -136 396) (512 -192 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "183 140 0"
+			"groupid" "26237"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26186"
+		side
+		{
+			"id" "11314"
+			"plane" "(548 -236 384) (512 -192 384) (512 -256 384)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11315"
+			"plane" "(512 -192 396) (548 -236 396) (512 -256 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11316"
+			"plane" "(548 -236 396) (512 -192 396) (512 -192 384)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11317"
+			"plane" "(512 -256 384) (512 -192 384) (512 -192 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11318"
+			"plane" "(512 -256 384) (512 -256 396) (548 -236 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "183 140 0"
+			"groupid" "26237"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26184"
+		side
+		{
+			"id" "11302"
+			"plane" "(600 -98 384) (512 -72 384) (512 -136 384)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11303"
+			"plane" "(512 -72 396) (600 -98 396) (580 -182 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11304"
+			"plane" "(600 -98 396) (512 -72 396) (512 -72 384)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11305"
+			"plane" "(580 -182 384) (512 -136 384) (512 -136 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11306"
+			"plane" "(580 -182 384) (580 -182 396) (600 -98 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11307"
+			"plane" "(512 -72 384) (512 -72 396) (512 -136 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "183 140 0"
+			"groupid" "26237"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "26183"
+		side
+		{
+			"id" "11296"
+			"plane" "(608 0 384) (512 0 384) (512 -72 384)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11297"
+			"plane" "(512 0 396) (608 0 396) (600 -98 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11298"
+			"plane" "(608 0 396) (512 0 396) (512 0 384)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11299"
+			"plane" "(600 -98 384) (512 -72 384) (512 -72 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[1 0 0 192] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11300"
+			"plane" "(600 -98 384) (600 -98 396) (608 0 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11301"
+			"plane" "(512 0 384) (512 0 396) (512 -72 396)"
+			"material" "STONE/STONEWALL036A"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "183 140 0"
+			"groupid" "26237"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "8251"
@@ -35910,6 +37348,36 @@ world
 		{
 			"color" "207 176 0"
 			"groupid" "25499"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "26087"
+		editor
+		{
+			"color" "241 230 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "26227"
+		editor
+		{
+			"color" "125 106 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "26237"
+		editor
+		{
+			"color" "183 140 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
