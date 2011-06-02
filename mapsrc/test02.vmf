@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "348"
+	"mapversion" "349"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "348"
+	"mapversion" "349"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -576,7 +576,7 @@ world
 		{
 			"id" "838"
 			"plane" "(-480 0 384) (-480 -192 384) (424 -192 384)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"material" "CONCRETE/CONCRETECEILING001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -652,7 +652,7 @@ world
 		{
 			"id" "853"
 			"plane" "(-480 -480 384) (0 -480 384) (0 -192 384)"
-			"material" "CONCRETE/CONCRETEFLOOR001A"
+			"material" "CONCRETE/CONCRETECEILING001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -256] 0.25"
 			"rotation" "0"
