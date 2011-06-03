@@ -1,0 +1,17 @@
+*.obj
+src/game/client/Debug_episodic
+src/game/client/Release_episodic
+src/game/server/Debug_episodic
+src/game/server/Release_episodic
+*.cache
+*.log
+*.vmx
+*.tmp
+src/_ReSharper*
+*.opensdf
+*.sdf
+*.ipch
+*.lst
+ep1_gamestats.dat
+config.cfg
+*.ain
