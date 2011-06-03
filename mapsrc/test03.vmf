@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "456"
+	"mapversion" "458"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "456"
+	"mapversion" "458"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -118196,7 +118196,7 @@ entity
 {
 	"id" "53566"
 	"classname" "logic_timer"
-	"RefireTime" "10"
+	"RefireTime" "20"
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "wave_start_timer"
@@ -118204,6 +118204,7 @@ entity
 	connections
 	{
 		"OnTimer" "wave_1,Enable,,0,-1"
+		"OnTimer" "w1_here,Display,,0,1"
 	}
 	"origin" "-1312 -64 160"
 	editor
@@ -118812,7 +118813,7 @@ entity
 	{
 		"OnHitMax" "win,Display,,0,-1"
 		"OnHitMax" "client_console,Command,disconnect,7,-1"
-		"OnHitMax" "fade,Fade,,7,-1"
+		"OnHitMax" "fade,Fade,,4,-1"
 	}
 	"origin" "-1340 508 128"
 	editor
@@ -119438,6 +119439,36 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "60276"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "3"
+	"message" "Wave One is Outside!"
+	"spawnflags" "0"
+	"targetname" "w1_here"
+	"x" "-1"
+	"y" ".4"
+	connections
+	{
+		"" ",,,0,-1"
+	}
+	"origin" "-1280 104 128"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
 	}
 }
 cameras
