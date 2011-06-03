@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "4715"
-	"mapversion" "437"
+	"mapversion" "439"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "1"
 }
 world
 {
 	"id" "1"
-	"mapversion" "437"
+	"mapversion" "439"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -94502,8 +94502,9 @@ entity
 entity
 {
 	"id" "47973"
-	"classname" "weapon_shotgun"
+	"classname" "item_battery"
 	"angles" "0 345 -90"
+	"disableshadows" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
@@ -94515,63 +94516,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "47975"
-	"classname" "item_box_buckshot"
-	"angles" "0 75 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "-213.999 272.001 694"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
-	}
-}
-entity
-{
-	"id" "47977"
-	"classname" "item_box_buckshot"
-	"angles" "0 105 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "-200.001 267.997 694"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
-	}
-}
-entity
-{
-	"id" "47979"
-	"classname" "item_box_buckshot"
-	"angles" "0 60 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "-187.996 276.002 694"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
 	}
 }
 entity
@@ -95992,8 +95936,9 @@ entity
 entity
 {
 	"id" "49909"
-	"classname" "weapon_shotgun"
+	"classname" "item_healthvial"
 	"angles" "0 195 -90"
+	"disableshadows" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
@@ -96006,44 +95951,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "49911"
-	"classname" "item_box_buckshot"
-	"angles" "0 105 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "213.502 272.001 694"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
-	}
-}
-entity
-{
-	"id" "49913"
-	"classname" "item_box_buckshot"
-	"angles" "0 75 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "0"
-	"origin" "199.504 267.997 694"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
 	}
 }
 entity
@@ -118531,6 +118438,7 @@ entity
 		"OnAllSpawnedDead" "wave_2,Enable,,25,-1"
 		"OnAllSpawnedDead" "client_console,Command,give weapon_shotgun,5,-1"
 		"OnAllSpawnedDead" "upgrade_1,Display,,5,-1"
+		"OnAllSpawnedDead" "client_console,Command,give item_box_buckshot,5.1,-1"
 	}
 	"origin" "-1248 160 128"
 	editor
@@ -118733,9 +118641,15 @@ entity
 	connections
 	{
 		"OnAllSpawnedDead" "w2_complete,Display,,0,-1"
-		"OnAllSpawnedDead" "w3_prepare,Display,,5,-1"
-		"OnAllSpawnedDead" "wave_3,Enable,,20,-1"
+		"OnAllSpawnedDead" "w3_prepare,Display,,10,-1"
+		"OnAllSpawnedDead" "wave_3,Enable,,25,-1"
 		"OnAllSpawned" "w2_here,Display,,0,-1"
+		"OnAllSpawnedDead" "client_console,Command,give weapon_smg1,5,-1"
+		"OnAllSpawnedDead" "client_console,Command,give item_ammo_smg1_large,5.1,-1"
+		"OnAllSpawnedDead" "upgrade_2,Display,,5,-1"
+		"OnAllSpawnedDead" "client_console,Command,give item_ammo_smg1_grenade,5.12,-1"
+		"OnAllSpawnedDead" "client_console,Command,give item_ammo_smg1_grenade,5.15,-1"
+		"OnAllSpawnedDead" "client_console,Command,give item_ammo_smg1_grenade,5.2,-1"
 	}
 	"origin" "-1248 256 128"
 	editor
@@ -119050,6 +118964,51 @@ entity
 	"x" "-1"
 	"y" ".4"
 	"origin" "-1280 160 160"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "57124"
+	"classname" "item_battery"
+	"angles" "0 345 -90"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "-328 280 694"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "57126"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "3"
+	"message" "We feel bad for what's about to happen. Have this."
+	"spawnflags" "0"
+	"targetname" "upgrade_2"
+	"x" "-1"
+	"y" ".4"
+	"origin" "-1272 260 160"
 	editor
 	{
 		"color" "220 30 220"
